@@ -5,7 +5,7 @@
 // Stampare a schermo la bici con peso minore. -->
 
 
-// Creazione dell'array di oggetti con nome e peso delle bici
+// Creazione dell'array di oggetti con nome e peso delle bici;
 const biciclette = [
     { nome: "Bianchi Oltre", peso: 7.2 },
     { nome: "Pinarello Dogma", peso: 6.8 },
@@ -14,13 +14,13 @@ const biciclette = [
     { nome: "Specialized Tarmac", peso: 6.7 }
 ];
 
-// Stampo l'intero array
+// Stampo l'intero array;
 console.log (biciclette);
 
 // console.log (bike[3]);
 console.log (biciclette[3]);
 
-// ciclo for per trovare la bici con il peso minore
+// Ciclo for per trovare la bici con il peso minore;
 let biciLeggera = biciclette[0];
 
 for (let i = 1; i < biciclette.length; i++) {
@@ -29,11 +29,11 @@ for (let i = 1; i < biciclette.length; i++) {
     }
 }
 
-// Stampa il risultato anche in console
+// Stampo il risultato anche in console;
 console.log("La bici più leggera è:", biciLeggera);
 console.log(`Nome: ${biciLeggera.nome}, Peso: ${biciLeggera.peso} kg`);
 
-// Stampa il risultato a schermo
+// Stampo il risultato a schermo;
 document.getElementById("output").textContent = 
     `La bici più leggera è ${biciLeggera.nome} con un peso di ${biciLeggera.peso} kg.`;
 
