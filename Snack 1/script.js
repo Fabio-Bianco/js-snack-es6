@@ -1,7 +1,11 @@
+
 // Snack 1
 // Creare un array di oggetti:
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore. -->
+
+
+// Array di oggetti 
 
 const bike = [
   {
@@ -28,4 +32,8 @@ const bike = [
   },
 ];
 
-console.log (bike)
+// Stampo l'intero array
+console.log (bike);
+
+// stampo in consolle la bici con il peso minore (oggetto)
+console.log (bike[3]);
