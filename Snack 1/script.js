@@ -78,4 +78,9 @@ for (let i = 1; i < biciclette.length; i++) {
 console.log("La bici più leggera è:", biciLeggera);
 console.log(`Nome: ${biciLeggera.nome}, Peso: ${biciLeggera.peso} kg`);
 
+// Stampa il risultato a schermo
+document.getElementById("output").textContent = 
+    `La bici più leggera è ${biciLeggera.nome} con un peso di ${biciLeggera.peso} kg.`;
+
+
 
